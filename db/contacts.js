@@ -1,9 +1,9 @@
 const fs = require("fs/promises");
+
 const path = require("path");
+const contactsPath = path.join(__dirname, "contacts.json");
 
 const { v4: uuidv4 } = require("uuid");
-
-const contactsPath = path.join(_dirname, "contacts.json");
 
 async function listContacts() {
   const data = await fs.readFile(contactsPath);
