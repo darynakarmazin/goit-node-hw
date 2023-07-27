@@ -1,5 +1,5 @@
 const contactsOperations = require("./db/contacts");
-// const argv = require("yargs").argv;
+const argv = require("yargs").argv;
 
 async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
@@ -44,3 +44,5 @@ async function invokeAction({ action, id, name, email, phone }) {
 //   phone: "099-99-99-999",
 // });
 // invokeAction({ action: "remove", id: "e5131a91-e01d-4180-88dd-47b1d751a184" });
+
+invokeAction(argv);
