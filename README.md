@@ -1,5 +1,6 @@
 # goit-node-hw
-Модуль 1 -  Основи Node.js
+Модуль 1 - Основи Node.js
+
 
 # Отримуємо і виводимо весь список контактів у вигляді таблиці (console.table)
 https://drive.google.com/file/d/1oohAWWSy9BUPqJySDgnxR66ru1v9Ajca/view?usp=sharing
